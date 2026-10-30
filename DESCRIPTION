@@ -1,8 +1,8 @@
 Package: ReVAMP
 Type: Package
 Title: Interface to 'Vamp' Audio Analysis Plugins
-Version: 1.0.1
-Date: 2025-12-03
+Version: 1.1.0
+Date: 2026-10-30
 Authors@R: 
     c(person("Ed", "Baker", 
            email = "ed@ebaker.me.uk",
@@ -27,13 +27,13 @@ LinkingTo: Rcpp
 Suggests: testthat (>= 3.0.0), tuneR, knitr, rmarkdown, spelling
 Config/testthat/edition: 3
 VignetteBuilder: knitr
-RoxygenNote: 7.3.3
 Encoding: UTF-8
 URL: https://revamp.ebaker.me.uk/, https://github.com/edwbaker/ReVAMP
 BugReports: https://github.com/edwbaker/ReVAMP/issues
 Language: en-US
+Config/roxygen2/version: 8.1.0
 NeedsCompilation: yes
-Packaged: 2025-12-22 11:44:33 UTC; edwab
+Packaged: 2026-10-30 14:53:26 UTC; edwab
 Author: Ed Baker [aut, cre] (ORCID: <https://orcid.org/0000-0002-5887-9543>),
   Authors of vamp-sdk [cph] (Authorship and copyright of included
     vamp-sdk as detailed in inst/COPYRIGHTS),
@@ -41,4 +41,4 @@ Author: Ed Baker [aut, cre] (ORCID: <https://orcid.org/0000-0002-5887-9543>),
     detailed in inst/COPYRIGHTS)
 Maintainer: Ed Baker <ed@ebaker.me.uk>
 Repository: CRAN
-Date/Publication: 2025-12-22 12:40:08 UTC
+Date/Publication: 2026-10-30 16:10:02 UTC
